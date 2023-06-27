@@ -19,8 +19,8 @@ You are required to model the price of houses with the available independent var
 
 ## General Information
 
-> Given dataset train.csv file has about 81 columns including id columns
-> Performed EDA on given data set
+# Given dataset train.csv file has about 81 columns including id columns
+# Performed EDA on given data set
 	#Identified that NaN values may have some impact on Sales Price
 	#Identified that Month Sold has no impact on the price
 	#Prepared new columns like age, garage_agem remodel_age
@@ -30,9 +30,9 @@ You are required to model the price of houses with the available independent var
 	
 ## Conclusions
 
-> We are able to achieve an R2 score of 0.82 approx on both Ridge and Lasso Models. 
+# We are able to achieve an R2 score of 0.82 approx on both Ridge and Lasso Models. 
 
-> Follwing factors influence the house price the most as demosntrated by both the models:-
+# Follwing factors influence the house price the most as demosntrated by both the models:-
     # Total area in square foot
     # Total Garage Area
     # Total Rooms
