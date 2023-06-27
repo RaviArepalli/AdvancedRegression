@@ -19,26 +19,26 @@ You are required to model the price of houses with the available independent var
 
 ## General Information
 
-### Given dataset train.csv file has about 81 columns including id columns
-### Performed EDA on given data set
-	### Identified that NaN values may have some impact on Sales Price
-	### Identified that Month Sold has no impact on the price
-	### Prepared new columns like age, garage_agem remodel_age
-	### Dropped 'GarageYrBlt'
-	### had to convert a few columns to string, not to treat them as numerical
-	### identified a few columns like 'Street', 'Utilities', 'PoolArea', 'PoolQC' have about 99% same values, hence dropped them
+-- Given dataset train.csv file has about 81 columns including id columns
+-- Performed EDA on given data set
+	- Identified that NaN values may have some impact on Sales Price
+	- Identified that Month Sold has no impact on the price
+	- Prepared new columns like age, garage_agem remodel_age
+	- Dropped 'GarageYrBlt'
+	- had to convert a few columns to string, not to treat them as numerical
+	- identified a few columns like 'Street', 'Utilities', 'PoolArea', 'PoolQC' have about 99% same values, hence dropped them
 	
 ## Conclusions
 
-### We are able to achieve an R2 score of 0.82 approx on both Ridge and Lasso Models. 
+-- We are able to achieve an R2 score of 0.82 approx on both Ridge and Lasso Models. 
 
-### Following factors influence the house price the most as demonstrated by both models:-
-    ### Total area in square foot
-    ### Total Garage Area
-    ### Total Rooms
-    ### Overall Condition
-    ### Lot Area
-    ### Centrally Air Conditioned
-    ### Total Porch Area (Open + Enclosed)
-    ### Kitchen Quality
-    ### Basement Quality
+-- Following factors influence the house price the most as demonstrated by both models:-
+    - Total area in square foot
+    - Total Garage Area
+    - Total Rooms
+    - Overall Condition
+    - Lot Area
+    - Centrally Air Conditioned
+    - Total Porch Area (Open + Enclosed)
+    - Kitchen Quality
+    - Basement Quality
